@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.main--wears{
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(pexels-jddaniel-2385477.jpg);
+    width: 100%;
+    /* background: #fff; */
+    /* background: url(pexels-mnzoutfits-1598505.jpg); */
+    /* background: url(img/pexels-cottonbro-4753997.jpg); */
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.main--nav{
+    height: 100px;
+    width: 100%;
+    /* background: white; */
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav{
+    align-items: center;
+    margin: auto;
+    position: sticky;
+    padding: 2rem;
+}
+
+.exit{
+    display: flex;
+}
+
+.nav input{
+    padding: 1rem 3rem;
+    border-radius: 14px;
+    border: none;
+    font-size: 23px;
+    background: #dddcdc;
+    background:url(img/bg.nike.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat:  no-repeat;
+}
+.nav--button{
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.nav button{
+    padding: 1rem;
+    border: none;
+    background: transparent;
+    font-size: 23px;
+    align-items: center;
+}
+
+.nav i{
+    font-size: 35px;
+    color: #fff;
+}
+
+.wears{
+    width: 90%;
+    height: 100vh;
+    background: transparent;
+    margin-top: 100px;
+    /* border: 2px solid #fff; */
+    display: flex;
+    justify-content: space-around;
+    padding: 4.3rem;
+    /* margin-left: 130px; */
+    margin: auto;
+    
+}
+
+
+.shoes--one{
+    /* border: 1px solid white; */
+    width: 50%;
+    height: 79vh;
+    margin-right: auto;
+    background: url(img/bg.nike.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:  no-repeat;
+    border-radius: 14px;
+    transition: 1s ease-in-out;
+    /* display: flex;
+     */
+}
+
+.shoes--one:hover{
+    transform: scale(1.2);
+    /* box-shadow: 2px 2px 15px 2px #fff, 2px 2px 15px 5px #fff; */
+}
+.shoes--two{
+    /* border: 1px solid white; */
+    width: 50%;
+    height: 80vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+}
+
+
+.shoes--two > div{
+    /* border: 1px solid #fff; */
+    width: 100%;
+    height: 130vh;
+   
+   
+    
+    
+}
+
+
+
+
+.nike--one{
+    margin-bottom: 50px;
+    background: url(img/grey.nike.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:  no-repeat;
+    border-radius: 14px;
+    transition: 1s ease-in-out;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.nike--one:hover{
+    transform: scale(1.2);
+}
+
+.nike--two{
+    margin-top: 50px;
+    background: url(img/box.nike.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:  no-repeat;
+    border-radius: 14px;
+    transition: 1s ease-in-out;
+    /* display: flex; */
+}
+
+.nike--two:hover{
+    transform: scale(1.2);
+}
+
+
+.stylish--link {
+    margin-top: 300px;
+    /* padding: 13rem ; */
+    color: white;
+    font-weight: 700;
+    font-size: 80px;
+    text-decoration: none;
+    align-content: center;
+    text-align: justify;
+    padding-left: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.shoes--one a{
+    padding-left: 5rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 4px;
+    transition: .4s ease-in-out;
+}
+
+/* .shoes--one a:hover{
+    color: #000;
+} */
+
+.sport--link{
+    margin-top: auto;
+    padding: 3rem  3rem;
+    color: white;
+    font-weight: 700;
+    font-size: 80px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.nike--two a{
+    margin-top: auto;
+    padding: 13rem ;
+    color: white;
+    font-weight: 700;
+    font-size: 80px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.nike--one span a{
+   padding: 4rem;
+   color: white;
+   font-family: "Poppins", sans-serif;
+   font-size: 14px;
+   text-decoration: none;
+   letter-spacing: 4px;
+}
+
+.fashion--link{
+    margin: auto;
+    padding: 3rem  3rem;
+    color: white;
+    font-weight: 700;
+    font-size: 80px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nike--two span a{
+    padding: 4rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+.main--products{
+    width: 95%;
+    height: 250vh;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+}
+
+.discount{
+    border: 1px solid black;
+    padding: 2rem;
+    align-content: center;
+    width: 70%;
+    height:190px;
+    /* background: #d8d7d7; */
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/bg.nike.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:  no-repeat;
+    /* margin-top: 300px;
+    margin-left: 380px; */
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.product--text{
+    padding: 2rem;
+    color: white;
+   
+}
+
+.product--text h3{
+    font-size: 60px;
+    color: white;
+}
+
+.product--text p{
+    letter-spacing: 4px;
+}
+
+
+.subscribe{
+    align-content: center;
+    margin-top: auto;
+    /* border: 1px solid white; */
+    padding: 2rem;
+}
+
+.sub--button{
+   width: 180px;
+   height: 50px;
+   font-size: 18px;
+   letter-spacing: 4px;
+   background: #000;
+   color: #fff;
+   border: 1px solid white;
+}
+
+.product{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    /* border: 2px solid black; */
+
+}
+
+.product--nav{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.view{
+   
+    /* letter-spacing: 1px; */
+    width: 100px;
+    height: 30px;
+   
+    
+}
+
+
+.product--nav span{
+    font-size: 27px;
+    letter-spacing: 3px;
+    font-weight:700;
+}
+
+.product--nav a{
+    color: black;
+    font-size: 25px;
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.collection{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+.collection > div{
+    width: 20%;
+    height: 30vh;
+    /* border: 2px solid black; */
+    margin-right: 10px;
+}
+
+.collect--one{
+    background: url(img/ash.nike.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:  no-repeat;
+}
+
+.collect--two{
+    background: url(img/box.nike.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:  no-repeat;
+}
+
+.collect--three{
+    background: url(img/brown.nike.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:  no-repeat;
+}
+
+.collect--four{
+    background: url(img/edge.nike.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:  no-repeat;
+}
+
+.collect--five{
+    background: url(img/jeans.nike.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:  no-repeat;
+}
+
+.brands{
+    width: 70%;
+    height: 70vh;
+    /* border: 2px solid black; */
+    margin: auto;
+    display: flex;
+    /* background: black; */
+}
+
+.brands > div{
+    width: 46%;
+    height: 69vh;
+    /* border: 2px solid black; */
+    margin: auto;
+    border-radius: 16px;
+
+}
+
+.brands--one{
+    background: url(img/pack.nike.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:  no-repeat;
+}
+
+.brands--two{
+    background: url(img/collect.nike.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:  no-repeat;
+}
+
+.jordan{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    /* border: 2px solid black; */
+
+}
+
+.jordan--nav{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.all{
+   
+    /* letter-spacing: 1px; */
+    width: 100px;
+    height: 30px;
+   
+    
+}
+
+.jordan--nav span{
+    font-size: 27px;
+    letter-spacing: 3px;
+    font-weight:700;
+}
+
+.jordan--nav a{
+    color: black;
+    font-size: 25px;
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.display{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+ 
+
+}
+.display > div{
+    width: 20%;
+    height: 30vh;
+    /* border: 2px solid black; */
+    margin-right: 20px;
+
+    
+}
+.display--one{
+    background: url(img/edge.nike.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:  no-repeat;
+}
+
+.display--two{
+    background: url(img/aqau.nike.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:  no-repeat;
+}
+
+.display--three{
+    background: url(img/black\ bg.nike.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:  no-repeat;
+}
+
+.display--four{
+    background: url(img/green.nike.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:  no-repeat;
+}
+
+.display--five{
+    background: url(img/air.nike.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:  no-repeat;
+}
+

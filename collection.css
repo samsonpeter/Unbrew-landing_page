@@ -1,0 +1,671 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.main--collection{
+    display: flex;
+    background: url(pexels-matreding-9328755.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.collection--nav{
+    background: #fff;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    /* padding: 2rem; */
+    /* border: 1px solid black; */
+
+}
+
+.nike--logo{
+    /* border: 2px solid black; */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url(pexels-matreding-9328755.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 2.6rem;
+    /* padding: 2rem; */
+}
+
+.nav{
+    margin-left: 30px;
+    display: flex;
+    align-content: center;
+    width: 20%;
+   
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.nav ul li{
+    padding: 3rem;
+    list-style: none;
+
+}
+
+.nav i{
+    align-items: center;
+    align-content: center;
+}
+
+.nav ul li a{
+    font-size: 34px;
+    color: black;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.nav--icon{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.nav--icon input{
+    width: 300px;
+    height: 60px;
+    font-size: 28px;
+    border-radius: 39px;
+    padding: 2rem;
+    background: #dad9d9;
+    border: none;
+    /* margin: 3rem; */
+}
+
+.nav--icon button{
+    /* padding: 2rem; */
+    font-size: 50px;
+    border: none;
+    background: transparent;
+    /* padding: 1rem; */
+    /* margin-right: 4rem; */
+    padding-top: 10px;
+    align-items: center;
+    /* margin-right: 6px; */
+    
+}
+
+.gen--icon{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    padding-right: 2rem;
+}
+
+.gen--icon i{
+    padding-top: 12px;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+.nav--icon i{
+    font-size: 50px;
+    align-content: center;
+    /* margin-top: 20px; */
+    justify-content: center;
+    /* border: 1px solid black; */
+
+}
+.icons{
+   display: flex;
+   align-items: center;
+   font-size: 50px;
+   gap: 1.8rem;
+}
+
+.update{
+    width: 100%;
+    height: 400vh;
+    /* border: 2px solid black; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.news{
+  text-align: center;
+  margin: 5rem auto;
+    
+}
+
+.news h1{
+    font-size: 120px;
+    font-weight:900;
+}
+
+.news p{
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+
+.news button{
+    margin-top: 3rem;
+    padding: 1.8rem;
+    /* width: 130px;
+    height: 80px; */
+    font-size: 23px;
+    background: black;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 40px;
+}
+
+.update--collection{
+    /* margin-top: 3rem; */
+    /* border: 1px solid black; */
+    width: 99%;
+    height: 208vh;
+    margin: auto;
+
+}
+
+.update--collection > div{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 68vh;
+    /* margin-top: 20px; */
+    
+}
+.collect--one{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+   
+}
+.collect--one > div{
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 68vh;
+   
+    /* margin: 1rem 1rem; */
+
+}
+
+.update--one{
+    background: url(picture/pexels-grailify-2658558-4252948.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    display: flex;
+    
+}
+.update--text--one{
+    margin-top: auto;
+    padding: 4rem;
+    color: white;
+    line-height: 4rem;
+}
+.update--text--one span{
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+}
+
+.update--text--one h2{
+    font-size: 60px;
+}
+
+.update--text--one button{
+    padding: 1rem 2rem;
+    font-size: 30px;
+    word-spacing: 4px;
+    background: #fff;
+    color: #000;
+    border-radius: 40px;
+    margin-top: 30px;
+    border: none;
+}
+
+
+.update--two{
+    background: url(picture/pexels-perfect-lens-10112911.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    display: flex;
+}
+
+.update--text--two{
+    margin-top: auto;
+    padding: 4rem;
+    color: white;
+    line-height: 4rem;
+}
+.update--text--two span{
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+}
+
+.update--text--two h2{
+    font-size: 60px;
+}
+
+.update--text--two button{
+    padding: 1rem 2rem;
+    font-size: 30px;
+    word-spacing: 4px;
+    background: #fff;
+    color: #000;
+    border-radius: 40px;
+    margin-top: 30px;
+    border: none;
+}
+
+.collect--two{
+    display: flex;
+    justify-content: space-between;
+    /* margin: auto; */
+    padding: 1rem;
+}
+
+.collect--two > div{
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 68vh;
+    margin: auto;
+    /* margin: 1rem 1rem; */
+}
+.update--three{
+    background: url(picture/pexels-jock-mark-3764484-5584997.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 2rem;
+}
+
+
+.update--text--three{
+    margin-top: auto;
+    padding: 4rem;
+    color: white;
+    line-height: 4rem;
+}
+.update--text--three span{
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+}
+
+.update--text--three h2{
+    font-size: 60px;
+}
+
+.update--text--three button{
+    padding: 1rem 2rem;
+    font-size: 30px;
+    word-spacing: 4px;
+    background: #fff;
+    color: #000;
+    border-radius: 40px;
+    margin-top: 30px;
+    border: none;
+}
+.update--four{
+    background: url(picture/pexels-basiciggy-9565800.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.update--text--four{
+    margin-top: auto;
+    padding: 4rem;
+    color: white;
+    line-height: 4rem;
+}
+.update--text--four span{
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+}
+
+.update--text--four h2{
+    font-size: 60px;
+}
+
+.update--text--four button{
+    padding: 1rem 2rem;
+    font-size: 30px;
+    word-spacing: 4px;
+    background: #fff;
+    color: #000;
+    border-radius: 40px;
+    margin-top: 30px;
+    border: none;
+}
+
+.week{
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+
+
+.week--news{
+    text-align: center;
+    margin: 5rem auto;
+      
+}
+  
+.week--news h1{
+    font-size: 90px;
+    font-weight:900;
+}
+  
+.week--news p{
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+  
+.week--news button{
+    margin-top: 3rem;
+    padding: 1.8rem;
+    /* width: 130px;
+    height: 80px; */
+    font-size: 23px;
+    background: black;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 40px;
+}
+
+.week--collection{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 50vh;
+    display: flex;
+}
+
+
+.week--collection > div{
+    width: 40%;
+    height: 47vh;
+    /* border: 1px solid black; */
+}
+
+.week--one{
+    background: url(picture/pexels-melvin-buezo-1253763-18946888.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.week--two{
+    background: url(picture/pexels-perfect-lens-15632277.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.week--three{
+    background: url(picture/pexels-perfect-lens-6692037.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.classics{
+    width: 100%;
+    height: 70vh;
+    /* border: 2px solid black; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.classics--text h2{
+    font-size: 90px;
+    font-weight: 900;
+
+}
+
+.classic--shoes{
+    width: 100%;
+    height: 60vh;
+    /* border: 1px solid black; */
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    padding: 2rem;
+    /* display: flex;
+    flex-direction: row;
+    transition: transform 0.5s ease-in-out;
+    height: 100%; */
+}
+
+.classic--shoes > div{
+    width: 20%;
+    height: 50vh;
+    /* border: 1px solid black; */
+    margin-right: 10px;
+}
+
+.shoe--one{
+    background: url(picture/air\ jordan\ camoflage\ nike.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shoe--two{
+    background: url(picture/air\ max\ 90\ nike.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shoe--three{
+    background: url(picture/ja\ basketball\ nike.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shoe--four{
+    background: url(picture/legacy\ nike.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shoe--five{
+    background: url(picture/metcon\ nike.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .shoe--six{
+    background: url(picture/pexels-basiciggy-9565800.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shoe--seven{
+    background: url(picture/pexels-hikaique-253490.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shoe--eight{
+    background: url(picture/pexels-introspectivedsgn-16304368.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shoe--nine{
+    background: url(picture/pexels-mallonymedia-5413301.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ */
+
+
+
+.member{
+    width: 90%;
+    height: 70vh;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1rem;
+}
+
+.member--text h2{
+    font-size: 90px;
+    font-weight: 900;
+}
+
+
+.member--ship{
+    width: 100%;
+    height: 68vh;
+    /* margin: auto; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.member--ship > div{
+    width: 50%;
+    height: 56vh;
+    /* border: 1px solid black; */
+    margin-right: 40px;
+}
+
+
+.ship--one{
+    background: url(picture/pexels-ushindinamegabe-7228047.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    display: flex;
+    
+    /* margin-top: auto;
+    display: flex;
+    flex-direction: column; */
+
+}
+.ship--one--text{
+    margin-top: auto;
+    color: white;
+    padding: 2rem;
+    line-height: 60px;
+}
+.ship--one--text span{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.ship--one--text h2{
+    font-size: 50px;
+}
+
+.ship--one--text button{
+    width: 120px;
+    height: 50px;
+    color: #000;
+    border-radius: 23px;
+    border: none;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.ship--two{
+    background: url(picture/pexels-mohammed-abubakr-201794886-11757389.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    display: flex;
+}
+
+.ship--two--text{
+    margin-top: auto;
+    color: white;
+    padding: 2rem;
+    line-height: 60px;
+}
+
+.ship--two--text span{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.ship--two--text h2{
+    font-size: 50px;
+}
+
+.ship--two--text button{
+    width: 120px;
+    height: 50px;
+    color: #000;
+    border-radius: 23px;
+    border: none;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.ship--three{
+    background: url(picture/pexels-wesleydavi-15336567.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    display: flex;
+}
+
+.ship--three--text{
+    margin-top: auto;
+    color: white;
+    padding: 2rem;
+    line-height: 60px;
+}
+
+.ship--three--text span{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.ship--three--text h2{
+    font-size: 50px;
+}
+
+.ship--three--text button{
+    width: 120px;
+    height: 50px;
+    color: #000;
+    border-radius: 23px;
+    border: none;
+    font-size: 30px;
+    margin-top: 20px;
+}
